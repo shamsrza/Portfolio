@@ -11,10 +11,10 @@ export const projects = [
   {
     title: 'Cryptoverse Web Application',
     description:"Cryptoverse App covers in-depth data about all crypto currencies, crypto markets and exchanges. Also application presents popular cryptocurrency news, charts (using Chart.js), data from multiple sources using RapidAPI.",
-    image: '/images/1.png',
+    image: '/images/portfolio_image_crypto.JPG',
     tags: ['Redux', 'RapidAPI', 'Chart.js'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/shamsrza/crypto-app',
+    visit: 'https://crypto-reactapp.netlify.app',
     id: 1,
   },
   {
