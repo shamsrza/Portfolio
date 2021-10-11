@@ -2,16 +2,16 @@ export const projects = [
   {
     title: 'Medical Services Chat',
     description: "Realtime Chat Messaging App with Authentication & SMS Notifications, Direct and Group Chats, Emojis & Reactions, Built-in Gif support, the ability to edit and delete messages, specialized commands, and much more, this fully responsive Medical Pager. ",
-      image: '/images/1.png',
+      image: '/images/coming_soon.jpg',
       tags: ['JS', 'Stream', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: '/images/coming_soon.png',
+    visit: '/images/coming_soon.png',
     id: 0,
   },
   {
     title: 'Cryptoverse Web Application',
     description:"Cryptoverse App covers in-depth data about all crypto currencies, crypto markets and exchanges. Also application presents popular cryptocurrency news, charts (using Chart.js), data from multiple sources using RapidAPI.",
-    image: '/images/portfolio_image_crypto.JPG',
+    image: '/images/crypto.png',
     tags: ['Redux', 'RapidAPI', 'Chart.js'],
     source: 'https://github.com/shamsrza/crypto-app',
     visit: 'https://crypto-reactapp.netlify.app',
@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'eCommerce Web Application',
     description: "This is online shopping website where customer will be able to add items to shopping cart, pay using PayPal and manage orders. Also admin panel with CRUD funcionalities will allow admin to create, update, delete products and categories.",
-      image: '/images/1.png',
+      image: '/images/coming_soon.jpg',
       tags: ['JS', "ASP.NET MVC", 'SQL'],
     source: 'https://google.com',
     visit: 'https://google.com',
@@ -29,10 +29,10 @@ export const projects = [
   {
     title: 'Taste Restaurant Web Application',
     description: "Taste is restaurant web application about menu, prices and services. App also presents two main CRUD functionalities: after signing in customer can make an order and also book a table, also can manage  all orders and reservations. ",
-    image: '/images/1.png',
+    image: '/images/coming_soon.jpg',
     tags: ['React', 'MaterialUI', 'WebAPI'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/shamsrza/TasteRestaurant',
+    visit: '/images/coming_soon.jpg',
     id: 3,
   },
 ];

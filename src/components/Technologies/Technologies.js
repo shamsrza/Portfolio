@@ -23,9 +23,13 @@ const Technologies = () =>  (
           <ListParagraph>
             {/* Experience with <br/> */}
             <ul>
-              <li> HTML / CSS(SASS)</li>
+              <li> HTML</li>
+              <li> CSS3/SASS</li>
+              <li> JQuery</li>
               <li> JavaScript</li>
               <li> React.js</li>
+              <li> React Hooks</li>
+              <li> Redux</li>
               <li> Material UI</li>
               <li> Bootstrap</li>
             </ul>
@@ -39,7 +43,8 @@ const Technologies = () =>  (
           <ListParagraph>
             {/* Experience with <br/> */}
             <ul>
-              <li> ASP.NET (WebAPI / MVC)</li>
+              <li> ASP.NET WebAPI </li>
+              <li> ASP.NET MVC</li>
               <li> C#</li>
               <li> SQL</li>
               <li> Node.js</li>
