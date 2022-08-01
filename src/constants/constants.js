@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: "Medical Services Chat",
+    title: "eComDash - React Dashboard",
     // description: "Realtime Chat Messaging App with Authentication & SMS Notifications, Direct and Group Chats, Emojis & Reactions, Built-in Gif support, the ability to edit and delete messages, specialized commands, and much more, this fully responsive Medical Pager. ",
-    image: "/images/coming_soon.jpg",
-    tags: ["JS", "Stream", "React", "Node"],
-    source: "/images/coming_soon.png",
-    visit: "/images/coming_soon.png",
+    image: "/images/eComDash_whiteBg.png",
+    tags: ["React-", "Tailwind-", "Syncfusion"],
+    source: "https://github.com/shamsrza/react-admin-dashboard",
+    visit: "https://ecom-dash.netlify.app/",
     id: 0
   },
   {
