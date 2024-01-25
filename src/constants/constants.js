@@ -9,12 +9,12 @@ export const projects = [
     id: 0
   },
   {
-    title: "Cryptoverse Web Application",
+    title: "SocialX - React landing page",
     //description:"Cryptoverse App covers in-depth data about all crypto currencies, crypto markets and exchanges. Also application presents popular cryptocurrency news, charts (using Chart.js), data from multiple sources using RapidAPI.",
-    image: "/images/crypto.png",
-    tags: ["Redux", "RapidAPI", "Chart.js"],
-    source: "https://github.com/shamsrza/crypto-app",
-    visit: "https://crypto-reactapp.netlify.app",
+    image: "/images/socialx_react_ss.png",
+    tags: ["React"],
+    source: "https://github.com/shamsrza/socialx_react_app",
+    visit: "https://socialx-react.vercel.app/",
     id: 1
   },
   {
