@@ -34,6 +34,24 @@ export const projects = [
     source: "https://github.com/shamsrza/TasteRestaurant",
     visit: "/images/coming_soon.jpg",
     id: 3
+  },
+  {
+    title: "Taste Restaurant Web Application",
+    //description: "Taste is restaurant web application about menu, prices and services. App also presents two main CRUD functionalities: after signing in customer can make an order and also book a table, also can manage  all orders and reservations. ",
+    image: "/images/coming_soon.jpg",
+    tags: ["React", "MaterialUI", "WebAPI"],
+    source: "https://github.com/shamsrza/TasteRestaurant",
+    visit: "/images/coming_soon.jpg",
+    id: 4
+  },
+  {
+    title: "Taste Restaurant Web Application",
+    //description: "Taste is restaurant web application about menu, prices and services. App also presents two main CRUD functionalities: after signing in customer can make an order and also book a table, also can manage  all orders and reservations. ",
+    image: "/images/coming_soon.jpg",
+    tags: ["React", "MaterialUI", "WebAPI"],
+    source: "https://github.com/shamsrza/TasteRestaurant",
+    visit: "/images/coming_soon.jpg",
+    id: 5
   }
 ];
 
