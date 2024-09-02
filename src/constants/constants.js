@@ -37,8 +37,7 @@ export const projects = [
     source: "https://github.com/shamsrza/TasteRestaurant",
     visit: "/images/coming_soon.jpg",
     id: 3,
-    dp: "none",
-
+    dp: "none", 
   },
   {
     title: "The New Silk Road",
