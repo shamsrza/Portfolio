@@ -38,6 +38,7 @@ export const projects = [
     visit: "/images/coming_soon.jpg",
     id: 3,
     dp: "none",
+
   },
   {
     title: "The New Silk Road",
