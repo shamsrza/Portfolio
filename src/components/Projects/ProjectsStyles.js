@@ -1,11 +1,13 @@
 import styled from 'styled-components';
 
+
+
 export const Img = styled.img`
   width:100%;
   height:150px;
   object-fit: cover;
   overflow: hidden;
-`
+`;
 
 export const GridContainer = styled.section`
 display: grid;
@@ -28,9 +30,28 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 230px;
+  position: relative;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
+`;
+
+export const OwTag = styled.div`
+  // display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  // background-color: #bf80ff;
+background-image: linear-gradient(to right, #bf80ff , #80bfff);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 10px;
+  font-weight: 700;
+  // border-bottom-right-radius: 100%;
+  // padding: 0;
+ }
 `;
 export const TitleContent = styled.div`
   text-align: center;
@@ -46,6 +67,7 @@ export const HeaderThree = styled.h3`
   letter-spacing: 2px;
   color: #9cc9e3;
   padding: .5rem 0;
+  height: 100px;
   font-size: ${(props) => props.title ? '2rem' : '1rem'};
 `;
 
@@ -116,4 +138,5 @@ padding: 2rem;
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
-`
+`;
+

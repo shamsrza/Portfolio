@@ -11,7 +11,8 @@ import {
   TagList,
   TitleContent,
   UtilityList,
-  Img
+  Img,
+  OwTag
 } from "./ProjectsStyles";
 import {
   Section,
@@ -30,8 +31,9 @@ const Projects = () => (
     <SectionText>Showcase of my best work in a variety of fields.</SectionText>
     <GridContainer>
       {projects.map(
-        ({ id, image, title, description, tags, source, visit }) => (
+        ({ id, image, title, description, tags, source, visit, dp }) => (
           <BlogCard key={id}>
+            <OwTag style={{display: dp}}><div style={{display:"flex", justifyContent:"center", alignItems:"center",width: "50px", height: "50px", background: "#0F1624"}}>Oliver Wyman brand</div></OwTag>
             <Img src={image}/>
             <TitleContent>
               <HeaderThree title>{title}</HeaderThree>
