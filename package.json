@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "npx next"
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && npx next"
   },
   "dependencies": {
     "next": "10.2.3",
