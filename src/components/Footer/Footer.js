@@ -12,7 +12,7 @@ const Footer = () => {
      <LinkList>
         <LinkColumn>
         <LinkTitle>Mobile</LinkTitle>
-        <LinkItem href="tel:0048883906552">+48 883 906 552 </LinkItem>
+        <LinkItem href="tel:0048785821979">+48 785 821 979 </LinkItem>
         </LinkColumn>
         <LinkColumn>
         <LinkTitle>Email</LinkTitle>
@@ -27,9 +27,9 @@ const Footer = () => {
      <SocialIcons href="https://www.linkedin.com/in/shams-rzayeva/">
        <AiFillLinkedin size="3rem"/>
      </SocialIcons>
-     <SocialIcons href="https://instagram.com">
+     {/* <SocialIcons href="https://instagram.com">
        <AiFillInstagram size="3rem"/>
-     </SocialIcons>
+     </SocialIcons> */}
       </SocialContainer>
         </LinkColumn>
      </LinkList>

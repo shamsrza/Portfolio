@@ -8,7 +8,9 @@ import { DiCssdeck } from 'react-icons/di';
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
 const Header = () =>  (
- <Container>
+
+  <div style={{display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center", width: "100%"}}>
+    <Container>
    <Div1>
    
      <Link href="/">
@@ -48,11 +50,13 @@ const Header = () =>  (
      <SocialIcons href="https://www.linkedin.com/in/shams-rzayeva/">
        <AiFillLinkedin size="3rem"/>
      </SocialIcons>
-     <SocialIcons href="https://instagram.com">
+     {/* <SocialIcons href="https://instagram.com">
        <AiFillInstagram size="3rem"/>
-     </SocialIcons>
+     </SocialIcons> */}
    </Div3>
  </Container>
+  </div>
+
 );
 
 export default Header;
