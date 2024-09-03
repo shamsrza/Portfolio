@@ -9,7 +9,7 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './Heade
 
 const Header = () =>  (
 
-  <div style={{display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center", width: "100%"}}>
+  <div style={{display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center", width: "100%", }}>
     <Container>
    <Div1>
    
